@@ -18,7 +18,7 @@ Most of what I build stays private — the automotive platform holds other deale
 
 ### What I build
 
-**DealerDash** — Multi-tenant wholesale automotive operations platform, in production, used by seven dealerships including two franchise rooftops. Tracks a vehicle from auction purchase through transport, reconditioning, listing, sale and financial close. Eleven integrated systems across auctions, logistics, valuation, accounting and payments, reached through vendor APIs, OAuth, authenticated web services and browser automation. A seventeen-state lifecycle engine with precondition gates, per-vehicle cost attribution reconciled against the accounting system, and encrypted per-tenant credential storage. TypeScript and Express on SQLite, deployed on infrastructure I run and maintain.
+**DealerDash** — Multi-tenant wholesale automotive operations platform, in production, used by four dealerships including two franchise rooftops. Tracks a vehicle from auction purchase through transport, reconditioning, listing, sale and financial close. Eleven integrated systems across auctions, logistics, valuation, accounting and payments, reached through vendor APIs, OAuth, authenticated web services and browser automation. A seventeen-state lifecycle engine with precondition gates, per-vehicle cost attribution reconciled against the accounting system, and encrypted per-tenant credential storage. TypeScript and Express on SQLite, deployed on infrastructure I run and maintain.
 
 **A sourcing engine** — Watches auction inventory continuously and surfaces vehicles that clear profit and condition thresholds. Running for fourteen months without interruption: 6.5 million searches, 444,000 vehicles evaluated. 
 
