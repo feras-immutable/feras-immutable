@@ -1,6 +1,6 @@
 # Feras Mansi
 
-I run a wholesale automotive operation in Houston and build the software it runs on. Most of my work is turning operational mess — auction feeds, vendor portals that have no API, card charges, title workflows — into systems a business can actually be run from.
+I run a wholesale automotive operation in Houston and build the software it runs on. Most of my work is turning operational mess — auction feeds, systems that were never built to talk to each other, card charges, title workflows — into something a business can actually be run from.
 
 Houston, TX · [dealerdash.io](https://dealerdash.io) · [ayahlabs.ai](https://ayahlabs.ai)
 
@@ -18,7 +18,7 @@ Most of what I build stays private — the automotive platform holds other deale
 
 ### What I build
 
-**DealerDash** — Multi-tenant wholesale automotive operations platform, in production, used by four dealerships including two franchise rooftops. Tracks a vehicle from auction purchase through transport, reconditioning, listing, sale and financial close. Eleven integrated systems across auctions, logistics, valuation, accounting and payments, reached through vendor APIs, OAuth, authenticated web services and browser automation. A seventeen-state lifecycle engine with precondition gates, per-vehicle cost attribution reconciled against the accounting system, and encrypted per-tenant credential storage. TypeScript and Express on SQLite, deployed on infrastructure I run and maintain.
+**DealerDash** — Multi-tenant wholesale automotive operations platform, in production, used by four dealerships including two franchise rooftops. Tracks a vehicle from auction purchase through transport, reconditioning, listing, sale and financial close. Eleven integrated systems across auctions, logistics, valuation, accounting and payments, pulling our own account data from the platforms we already trade on. A seventeen-state lifecycle engine with precondition gates, per-vehicle cost attribution reconciled against the accounting system, and encrypted per-tenant credential storage. TypeScript and Express on SQLite, deployed on infrastructure I run and maintain.
 
 **A sourcing engine** — Watches auction inventory continuously and surfaces vehicles that clear profit and condition thresholds. Running for fourteen months without interruption: 6.5 million searches, 444,000 vehicles evaluated. 
 
